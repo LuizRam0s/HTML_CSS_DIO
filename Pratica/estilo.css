@@ -1,0 +1,39 @@
+body{
+	width: 920px;
+	text-align: center;
+	background: #C4E7EC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+table{
+	width:720px;
+	border:1px solid #074A96;
+}
+
+img{
+	width: 300px;
+	padding: 5px;
+	border: 10px;
+}
+
+a{
+	font-size: 1em;
+	padding: 5px;
+}
+
+a:link, a:visited {
+	color: #0E2E52;
+}
+
+
+a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+div{
+	border: 5px solid #37315C;
+	padding: 5px;
+	margin: 5px;
+}
