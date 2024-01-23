@@ -13,16 +13,16 @@ table{
 
 img{
 	width: 300px;
-	padding: 5px;
-	border: 10px;
+	padding: 8px;
 }
 
 a{
-	font-size: 1em;
-	padding: 5px;
+	font-size: 1.5em;
+	padding: 7px;
 }
 
 a:link, a:visited {
+	text-decoration:  none;
 	color: #0E2E52;
 }
 
@@ -33,7 +33,36 @@ a:hover{
 }
 
 div{
-	border: 5px solid #37315C;
+	border: 1px solid #37315C;
 	padding: 5px;
 	margin: 5px;
+}
+
+
+
+span{
+	float: right;
+}
+.texto{
+	font-size: 0.8em;
+}
+
+.texto-lado-esquerdo{
+	padding: 5px;
+	text-align: left;
+}
+
+.texto-aliando-acima{
+	padding-top: 3px;
+}
+
+.div-tamanho{
+	font-size: 1.2em;
+	background: #D2E9DF;
+	width: 400px;
+	float: left;
+}
+
+.clear{
+	clear: both;
 }
