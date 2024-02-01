@@ -7,8 +7,34 @@ body{
 }
 
 table{
+	border: 1px solid #055180;
 	width:720px;
-	border:1px solid #074A96;
+	background: #99c5e0;
+}
+
+
+table thead th {
+	background: #055180;
+	color: whitesmoke;
+}
+
+table tbody td{
+	background: #8ecdf5;
+}
+
+table tbody tr:nth-child(even) td {
+	background: #badef5;
+}
+
+table tbody tr:hover td{
+	background: #cde7f7;
+	color: black;
+	cursor: pointer;
+}
+
+table tfoot{
+	background:whitesmoke;
+	color: #83b1f2;
 }
 
 img{
