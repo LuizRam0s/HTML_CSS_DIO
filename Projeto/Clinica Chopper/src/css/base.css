@@ -1,0 +1,156 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    
+    justify-content: center;
+}
+
+a{
+    font-size: 1.3em;
+    padding: 0px;
+}
+
+a:link, a:visited {
+    text-decoration:  none;
+    color: #0E2E52;
+}
+
+
+a:hover{
+    text-decoration: underline;
+    color: #6ced09;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+li{
+    padding: 10px;
+}
+
+caption{
+    font-size: 1.3em;
+    color: #0E2E52;
+}
+
+table{
+    background:#0E2E52;
+    text-align: center ;
+    width: 850px;
+    padding: 1px;
+}
+
+table thead th {
+    background: #03a32e;
+    color: whitesmoke;
+}
+
+table tbody td{
+    background: #95f5af;
+    cursor: pointer;
+}
+
+table tbody tr:nth-child(even) td {
+    background: #84ed80;
+}
+
+table tbody tr:hover td{
+    background: #cde7f7;
+    color: black;
+    cursor: pointer;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(143, 247, 171);
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: #d0f5da;
+    padding: 10px 10px;
+}
+
+.header {
+    background-color: #e1f7e7;
+    min-height: 150px;
+}
+
+.footer {
+    background-color: rgb(143, 247, 171);
+    text-align: center;
+    min-height: 50px;
+    clear: both;
+}
+
+.content {
+    background-color: #e1f7e7;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content iframe{
+    float: left;
+    width: 500px;
+    height: 450px;
+}
+
+.content .informacoes-contado{
+    flex-direction: column;
+    width: 40%;
+    float: right;
+    padding: 25px 10px;
+}
+
+.content .informacoes-contado img{
+    width: 60px;
+    padding: 25px 10px;
+}
+
+.content .informacoes-contado .container{
+    display: flex;
+    align-items: center;
+}
+
+.content .formulario{
+    width: 500px;
+}
+
+.content .formulario .organizando-formularios{
+        display: flex;
+}
+
+.content .formulario .organizando-formularios input{
+    width: 300px;
+}
+
+.content .formulario .organizando-formularios .dados-pessoas{
+    float: left;
+    padding: 10px;
+}
+
+.content .formulario .organizando-formularios .informacoes-do-caso{
+    float: right;
+    padding: 20px;
+}
+
+.content .formulario .organizando-formularios .informacoes-do-caso textarea{
+    width: 550px;
+    height: 200px;
+}
+
+
+
