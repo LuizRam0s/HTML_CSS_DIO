@@ -3,7 +3,7 @@ html, body {
 }
 body {
     background-color: #f1f1f1;
-    display: flex;
+    
     justify-content: center;
 }
 
@@ -69,29 +69,88 @@ table tbody tr:hover td{
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(143, 247, 171);
 }
+
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
+
 .menu {
     width: 15%;
     background-color: #d0f5da;
     padding: 10px 10px;
 }
+
 .header {
     background-color: #e1f7e7;
     min-height: 150px;
 }
+
+.footer {
+    background-color: rgb(143, 247, 171);
+    text-align: center;
+    min-height: 50px;
+    clear: both;
+}
+
 .content {
     background-color: #e1f7e7;
     min-height: 300px;
     padding: 20px;
 }
-.footer {
-    background-color: rgb(143, 247, 171);
-    text-align: center;
-    min-height: 50px;
+
+.content iframe{
+    float: left;
+    width: 500px;
+    height: 450px;
 }
+
+.content .informacoes-contado{
+    flex-direction: column;
+    width: 40%;
+    float: right;
+    padding: 25px 10px;
+}
+
+.content .informacoes-contado img{
+    width: 60px;
+    padding: 25px 10px;
+}
+
+.content .informacoes-contado .container{
+    display: flex;
+    align-items: center;
+}
+
+.content .formulario{
+    width: 500px;
+}
+
+.content .formulario .organizando-formularios{
+        display: flex;
+}
+
+.content .formulario .organizando-formularios input{
+    width: 300px;
+}
+
+.content .formulario .organizando-formularios .dados-pessoas{
+    float: left;
+    padding: 10px;
+}
+
+.content .formulario .organizando-formularios .informacoes-do-caso{
+    float: right;
+    padding: 20px;
+}
+
+.content .formulario .organizando-formularios .informacoes-do-caso textarea{
+    width: 550px;
+    height: 200px;
+}
+
+
+
