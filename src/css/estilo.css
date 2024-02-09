@@ -1,0 +1,104 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    font-size: 1.3em;
+    padding: 0px;
+}
+
+a:link, a:visited {
+    text-decoration:  none;
+    color: #888888;
+    
+}
+
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+    background-color: #888888;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+li{
+    padding: 10px;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,13rem) minmax(0,3.0fr) minmax(0,13rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.anchors {
+    background-color: #1A1A22;
+    color: while;
+    border-left: solid 1px while;
+    padding-left: 15px;
+}
+.sidebar {
+    background-color: #1A1A22;
+    color: while;
+    border-right: solid 1px #cdcdcd;
+}
+
+figure {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+figure img {
+    width: 480px;
+}
+
+
+.logo{
+    text-align: center;
+    background-color: #1A1A22;
+    color: whitesmoke;
+}
+
+.bar {
+    background-color: #1A1A22;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+.footer {
+    background-color: #1A1A22 ;
+    color: whitesmoke;
+    text-align: center;
+    min-height: 35px;
+
+}
+
+h2{
+    border-top: 1px  solid #cdcdcd;
+}
+
+.roda-pe{
+    border: 0px;
+}
+
+.h2estilizando{
+    text-align: center;
+    color:white;
+    padding: 0px;
+    margin: 0px;
+}
