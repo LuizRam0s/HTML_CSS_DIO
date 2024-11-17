@@ -38,8 +38,10 @@ table tfoot{
 }
 
 img{
-	width: 300px;
+	width: 50px;
+	height: 50px;
 	padding: 8px;
+	
 }
 
 a{
@@ -59,12 +61,14 @@ a:hover{
 }
 
 div{
-	border: 1px solid #37315C;
+	border: 1px solid #ccc7ec;
 	padding: 5px;
 	margin: 5px;
 }
 
-
+#inicio{
+	height: 55px;
+}
 
 span{
 	float: right;
