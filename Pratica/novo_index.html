@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
     <header>
@@ -14,9 +15,11 @@
     <main>
 
         <nav>
-            <a href=""></a>
-            <a href=""></a>
+            <a href="#imagens">Imagens</a>
+            <a href="#lista">Lista</a>
             <a href="#final_pagina">Final da pagina</a>
+            <a href="#multimidias">Multimidias</a>
+            <a href="#formularios">Formularios</a>
         </nav>
         <p>Nessa pagina, espero conseguir colocar tudo que vi ate agora no curso em html 5 da DIO</p>
 
@@ -93,14 +96,82 @@
             <p>Um dia, <strong>Pedro pediu Alice em casamento</strong>. Ela aceitou sem hesitar, e o casamento foi um dia de muita alegria e celebração. Alice e Pedro se tornaram marido e mulher, e sua história de amor se tornou um <q>exemplo para todos que os cercavam</q></p>
         </aside>
 
-        <section>
+        <section id="lista">
             <hr>
             <h2>Criando uma lista ordenada e não ordenada</h2>
+
+            <ul><li>Naruto</li></ul>
+            <ul><li>Pokemon</li></ul>
+            <ul><li>Dragon Ball</li></ul>
+
+            <br>
+            <ol><li>Primeiro</li></ol>
+            <ol><li>Segundo</li></ol>
+            <ol><li>Terceiro</li></ol>
+            <br>
+
+            <dl>
+                <dt>HTML</dt>
+                <dd>Linguagem de marcação utilizada para estruturar o conteúdo de páginas web.</dd>
+            
+                <dt>CSS</dt>
+                <dd>Linguagem de estilo utilizada para definir a apresentação visual de páginas web.</dd>
+            
+                <dt>JavaScript</dt>
+                <dd>Linguagem de programação utilizada para criar interatividade em páginas web.</dd>
+            </dl>
+        
+        </section>
+
+        <section id="imagens">
+            <hr>
+            <h2>Adicinando imagens e link</h2>
+            <img src="/Pratica/src/images.jpeg" alt="Imagem de uma menina estudando"><br>
+            <img src="https://nuckturp.com.br/wp-content/uploads/2021/12/Shadowrun-RPG-Art-Eddy-Shinjuku.jpg" alt="Personagem femenina de um jogo rpg" width="350px"> <br>
+            <a href="https://www.instagram.com/">Instagram</a>
+        </section>
+
+        <section id="multimidias">
+            <hr>
+            <h2>Trabalhando com multimidias</h2>
+            <source>
+            <video src="src/1536322-hd_1920_1080_30fps.mp4" width="400px" controls></video>
+            <br>
+            <audio src="src/Attack Of Titan - Guren No Yumiya.mp3" controls></audio>
+        </section>
+
+        <section id="formularios">
+            <hr>
+            <h2>Adicionando formulario simples</h2>
+
+            <form action="">
+                <fieldset>
+                    <legend>Dados pessoas</legend>
+                    <label for="">Nome <input type="text"></label>
+                    <label for="">Sobrenome <input type="text"></label> <br>
+                    <label for="">Idade <input type="number"></label>
+                    <label for="">Email <input type="email"></label> <br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <label for="">Bairro <input type="text"></label>
+                    <label for="">Rua <input type="text"></label> <br>
+                    <label for="">Numero <input type="number"></label>
+                    <button>Enviar dados</button>
+                    <br>
+                    <label for="">Sugestoes<textarea name="Sugestoes" id="">digite aqui</textarea></label>
+                </fieldset>
+            </form>
+
         </section>
 
     </main>
 
     <footer id="final_pagina">
+        <p>‼️‼️ Importante: isso é apenas o html puro, css nao ira se aplicar nem as fomataçoes simples. <br>
+            Quando eu finalizar css na dio, irei fazer um novo documento estilizado para comparar o inicio e o final‼️‼️
+        </p>
         <h3>Isso é tudo por enquanto</h3>
     </footer>
     
