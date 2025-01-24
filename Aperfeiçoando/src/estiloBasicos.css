@@ -1,0 +1,38 @@
+div .tamanho{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 10px 4px;
+}
+
+#preDefinidas{
+    background-color: white;
+}
+
+#currentcolor {
+    background-color: currentColor;
+}
+
+#rgb {
+    background-color: rgb(213, 130, 28);
+}
+
+#rgba{
+    background-color: rgba(213, 130, 28, 0.6);
+}
+
+#hexadecimal{
+    background-color: #d5821c;
+}
+
+#hexadecimalTransparente{
+    background-color: #d5821c66;
+}
+
+#hls{
+    background-color: hsl(360, 80%, 50%);
+}
+
+#hlsa{
+    background-color: hsl(360, 80%, 50%, 0.6);
+}
