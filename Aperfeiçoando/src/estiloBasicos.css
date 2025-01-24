@@ -36,3 +36,54 @@ div .tamanho{
 #hlsa{
     background-color: hsl(360, 80%, 50%, 0.6);
 }
+
+img{
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+}
+
+#contain{
+    object-fit: contain;
+}
+
+#cover{
+    object-fit: cover;
+}
+
+#fill{
+    object-fit: fill;
+}
+
+#none{
+    object-fit: none;
+}
+
+#scaleDown{
+    object-fit: scale-down;
+}
+
+#porcentagem {
+    object-fit: contain;
+    object-position: 80% 50%;
+}
+
+#px{
+    object-fit: contain;
+    object-position: 30px 40px;
+}
+
+#left{
+    object-fit: cover;
+    object-position: left top;
+}
+
+#center{
+    object-fit: cover;
+    object-position: center bottom;
+}
+
+#right{
+    object-fit: cover;
+    object-position: right center;
+}
