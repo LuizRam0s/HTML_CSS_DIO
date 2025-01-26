@@ -18,3 +18,119 @@
 #repeat{
     background-image: repeating-linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet);
 }
+
+#fundoPx{
+   background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-size: 50px 40px;
+}
+
+#fundoPorCento{
+    background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-size: 50% 30%;
+}
+
+#fundoEm{
+    background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-size: 5em 10em ;
+}
+
+#fundoContain{
+    background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-size: contain;
+}
+
+#fundoCover{
+    background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-size: cover;
+}
+
+#fundoAuto{
+    background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-size: auto;
+}
+
+#noRepeat{
+    background-image: url(./imagens/Fundo\ 01.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+#fundoRepeat{
+    background-image: url(./imagens/Fundo\ 01.jpg);
+    background-size: 50%;
+    background-repeat: repeat;
+}
+
+#repeat-x{
+    background-image: url(./imagens/Fundo\ 01.jpg);
+    background-size: 50%;
+    background-repeat: repeat-x;
+}
+
+#repeat-y{
+    background-image: url(./imagens/Fundo\ 01.jpg);
+    background-size: 50%;
+    background-repeat: repeat-y;
+}
+
+#space{
+    background-image: url(./imagens/Fundo\ 01.jpg);
+    background-size: 50%;
+    background-repeat: space;
+}
+
+#round{
+    background-image: url(./imagens/Fundo\ 01.jpg);
+    background-size: 50%;
+    background-repeat: round;
+}
+
+#fundoPorcentagem{
+    background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-position: 45% 40%;
+}
+
+#fundoPX{
+    background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20px 35px;
+}
+
+#fundoLeft{
+    background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+#fundoCenter{
+    background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#fundoRight{
+    background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#fundoScrool{
+    background-image: url(./imagens/2fb4bc93-7f44-4aa8-8728-6f2fad1fb007.png);
+    background-position: center;
+    overflow: auto;
+    background-attachment: scroll;
+}
+
+#fundoFixed{
+    background-image: url(./imagens/2fb4bc93-7f44-4aa8-8728-6f2fad1fb007.png);
+    background-position: center;
+    overflow: auto;
+    background-attachment: fixed;
+}
+#fundoLocal{
+    background-image: url(./imagens/2fb4bc93-7f44-4aa8-8728-6f2fad1fb007.png);
+    background-position: center;
+    overflow: auto;
+    background-attachment: local;
+}
