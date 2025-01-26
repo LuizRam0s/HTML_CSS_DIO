@@ -1,0 +1,20 @@
+#image{
+    background-image: url(./imagens/Fundo\ 01.jpg);
+    background-position: center;
+}
+
+#color{
+    background-color: aquamarine;
+}
+
+#linear {
+    background-image: linear-gradient(to right, rgb(28, 141, 124), rgb(166, 222, 239));
+}
+
+#radial{
+    background-image: radial-gradient(rgb(0, 0, 0), rgb(180, 12, 12), rgb(52, 96, 52));
+}
+
+#repeat{
+    background-image: repeating-linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet);
+}
