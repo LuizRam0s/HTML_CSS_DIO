@@ -128,9 +128,109 @@
     overflow: auto;
     background-attachment: fixed;
 }
+
 #fundoLocal{
     background-image: url(./imagens/2fb4bc93-7f44-4aa8-8728-6f2fad1fb007.png);
     background-position: center;
     overflow: auto;
     background-attachment: local;
+}
+
+#originPadding{
+    border: 10px dashed rgb(80, 10, 10);
+    background-image: url(./imagens/Thor.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    box-sizing: border-box;
+}
+
+#originBorder{
+    border: 10px dashed rgb(80, 10, 10);
+    background-image: url(./imagens/Thor.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    box-sizing: border-box;
+}
+
+#originContent{
+    border: 10px dashed rgb(80, 10, 10);
+    background-image: url(./imagens/Thor.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#clipPadding{
+    border: 10px dashed rgb(80, 10, 10);
+    background-color: aquamarine;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    box-sizing: border-box;
+}
+
+#clipBorder{
+    border: 10px dashed rgb(80, 10, 10);
+    background-color: aquamarine;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    box-sizing: border-box;
+}
+
+#clipContent{
+    border: 10px dashed rgb(80, 10, 10);
+    background-color: aquamarine;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div > #exemplo{
+    width: 350px;
+    height: 150px;
+    background-image: url(./imagens/Thor.jpg);
+    color: aliceblue;
+    font-size:80px;
+    font-weight: 900;
+    border: 10px dashed red;
+    box-sizing: border-box;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+}
+
+.alinhando{
+    display: flex;
+    text-align: center;
+}
+
+#exemploI{
+    background: url(./imagens/Fundo02\ \(1\).jpg) #f5aaa6;
+    background-size: 100% 100%;
+    background-blend-mode: darken;
+}
+
+#exemploII{
+    background: url(./imagens/Fundo02\ \(1\).jpg) #c8b9b8;
+    background-size: 100% 100%;
+    background-blend-mode: screen;
+}
+
+#exemploIII{
+    background: url(./imagens/Fundo02\ \(1\).jpg) #f5aaa6;
+    background-size: 100% 100%;
+    background-blend-mode: overlay;
+}
+
+#exemploIIII{
+    background: url(./imagens/Fundo02\ \(1\).jpg) #3fce55;
+    background-size: 100% 100%;
+    background-blend-mode: lighten;
 }
