@@ -1,195 +1,232 @@
 #image{
-    background-image: url(./imagens/Fundo\ 01.jpg);
-    background-position: center;
+   /* background-image: url(./imagens/Fundo\ 01.jpg);
+    background-position: center; */
+    background: url(./imagens/Fundo\ 01.jpg) center;
+
 }
 
 #color{
-    background-color: aquamarine;
+   /* background-color: aquamarine; */
+   background: aquamarine;
 }
 
 #linear {
-    background-image: linear-gradient(to right, rgb(28, 141, 124), rgb(166, 222, 239));
+    /* background-image: linear-gradient(to right, rgb(28, 141, 124), rgb(166, 222, 239)); */
+    background: linear-gradient(to right, rgb(28, 141, 124), rgb(166, 222, 239));
 }
 
 #radial{
-    background-image: radial-gradient(rgb(0, 0, 0), rgb(180, 12, 12), rgb(52, 96, 52));
+    /* background-image: radial-gradient(rgb(0, 0, 0), rgb(180, 12, 12), rgb(52, 96, 52)); */
+    background: radial-gradient(rgb(0, 0, 0), rgb(180, 12, 12), rgb(52, 96, 52));
 }
 
 #repeat{
-    background-image: repeating-linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet);
+    /* background-image: repeating-linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet); */
+    background: repeating-linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
 }
 
 #fundoPx{
-   background-image: url(./imagens/Fundo02\ \(1\).jpg);
-    background-size: 50px 40px;
+    /* background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-size: 50px 40px; */
+    background: url(./imagens/Fundo02\ \(1\).jpg) repeat left top/50px 40px;
 }
 
 #fundoPorCento{
-    background-image: url(./imagens/Fundo02\ \(1\).jpg);
-    background-size: 50% 30%;
+    /* background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-size: 50% 30%; */
+    background: url(./imagens/Fundo02\ \(1\).jpg) repeat left top/50% 30%;
 }
 
 #fundoEm{
-    background-image: url(./imagens/Fundo02\ \(1\).jpg);
-    background-size: 5em 10em ;
+    /*background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-size: 5em 10em ;*/
+    background: url(./imagens/Fundo02\ \(1\).jpg) repeat left top/5em 10em;
 }
 
 #fundoContain{
-    background-image: url(./imagens/Fundo02\ \(1\).jpg);
-    background-size: contain;
+    /*background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-size: contain;*/
+    background: url(./imagens/Fundo02\ \(1\).jpg) repeat left top/contain;
 }
 
 #fundoCover{
-    background-image: url(./imagens/Fundo02\ \(1\).jpg);
-    background-size: cover;
+    /*background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-size: cover;*/
+    background: url(./imagens/Fundo02\ \(1\).jpg) repeat left top/cover;
+
 }
 
 #fundoAuto{
-    background-image: url(./imagens/Fundo02\ \(1\).jpg);
-    background-size: auto;
+    /*background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-size: auto;*/
+    background: url(./imagens/Fundo02\ \(1\).jpg) repeat left top/auto;
 }
 
 #noRepeat{
-    background-image: url(./imagens/Fundo\ 01.jpg);
+    /*background-image: url(./imagens/Fundo\ 01.jpg);
     background-size: 50%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+    background: url(./imagens/Fundo\ 01.jpg) no-repeat left top/50%;
 }
 
 #fundoRepeat{
-    background-image: url(./imagens/Fundo\ 01.jpg);
+    /* background-image: url(./imagens/Fundo\ 01.jpg);
     background-size: 50%;
-    background-repeat: repeat;
+    background-repeat: repeat; */
+    background: url(./imagens/Fundo\ 01.jpg) repeat left top/50%;
 }
 
 #repeat-x{
-    background-image: url(./imagens/Fundo\ 01.jpg);
+    /*background-image: url(./imagens/Fundo\ 01.jpg);
     background-size: 50%;
-    background-repeat: repeat-x;
+    background-repeat: repeat-x;*/
+    background: url(./imagens/Fundo\ 01.jpg) repeat-x left top/50%;
 }
 
 #repeat-y{
-    background-image: url(./imagens/Fundo\ 01.jpg);
+    /*background-image: url(./imagens/Fundo\ 01.jpg);
     background-size: 50%;
-    background-repeat: repeat-y;
+    background-repeat: repeat-y;*/
+    background: url(./imagens/Fundo\ 01.jpg) repeat-y left top/50%;
 }
 
 #space{
-    background-image: url(./imagens/Fundo\ 01.jpg);
-    background-size: 50%;
-    background-repeat: space;
+    /*background-image: url(./imagens/Fundo\ 01.jpg);
+    background-size: 30%;
+    background-repeat: space;*/
+    background: url(./imagens/Fundo\ 01.jpg) space left top/30%;
 }
 
 #round{
-    background-image: url(./imagens/Fundo\ 01.jpg);
+    /*background-image: url(./imagens/Fundo\ 01.jpg);
     background-size: 50%;
-    background-repeat: round;
+    background-repeat: round; */
+    background: url(./imagens/Fundo\ 01.jpg) round left top/50% 100%;
 }
 
 #fundoPorcentagem{
-    background-image: url(./imagens/Fundo02\ \(1\).jpg);
-    background-position: 45% 40%;
+    /*background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    background-position: 45% 40%;*/
+    background: url(./imagens/Fundo02\ \(1\).jpg) 45% 40%;
 }
 
 #fundoPX{
-    background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    /*background-image: url(./imagens/Fundo02\ \(1\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 20px 35px;
+    background-position: 20px 35px;*/
+    background: url(./imagens/Fundo02\ \(1\).jpg) no-repeat 20px 35px/ cover;
+
 }
 
 #fundoLeft{
-    background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    /*background-image: url(./imagens/Fundo02\ \(1\).jpg);
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: left top;*/
+    background: url(./imagens/Fundo02\ \(1\).jpg) no-repeat left top;
 }
 
 #fundoCenter{
-    background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    /*background-image: url(./imagens/Fundo02\ \(1\).jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center;*/
+    background: url(./imagens/Fundo02\ \(1\).jpg) no-repeat center center;
 }
 
 #fundoRight{
-    background-image: url(./imagens/Fundo02\ \(1\).jpg);
+    /*background-image: url(./imagens/Fundo02\ \(1\).jpg);
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right bottom;*/
+    background: url(imagens/Fundo02\ \(1\).jpg) no-repeat right bottom;
 }
 
 #fundoScrool{
-    background-image: url(./imagens/2fb4bc93-7f44-4aa8-8728-6f2fad1fb007.png);
+    /*background-image: url(./imagens/2fb4bc93-7f44-4aa8-8728-6f2fad1fb007.png);
     background-position: center;
     overflow: auto;
-    background-attachment: scroll;
+    background-attachment: scroll;*/
+    overflow: auto;
+    background: url(./imagens/2fb4bc93-7f44-4aa8-8728-6f2fad1fb007.png) scroll center;
 }
 
 #fundoFixed{
-    background-image: url(./imagens/2fb4bc93-7f44-4aa8-8728-6f2fad1fb007.png);
+    /*background-image: url(./imagens/2fb4bc93-7f44-4aa8-8728-6f2fad1fb007.png);
     background-position: center;
     overflow: auto;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
+    overflow: auto;
+    background: url(./imagens/2fb4bc93-7f44-4aa8-8728-6f2fad1fb007.png) center fixed;
 }
 
 #fundoLocal{
-    background-image: url(./imagens/2fb4bc93-7f44-4aa8-8728-6f2fad1fb007.png);
+    /*background-image: url(./imagens/2fb4bc93-7f44-4aa8-8728-6f2fad1fb007.png);
     background-position: center;
     overflow: auto;
-    background-attachment: local;
+    background-attachment: local;*/
+    overflow: auto;
+    background: url(./imagens/2fb4bc93-7f44-4aa8-8728-6f2fad1fb007.png) local center;
 }
 
 #originPadding{
     border: 10px dashed rgb(80, 10, 10);
-    background-image: url(./imagens/Thor.jpg);
+    /*background-image: url(./imagens/Thor.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-origin: padding-box;
+    background-origin: padding-box;*/
     box-sizing: border-box;
+    background: url(./imagens/Thor.jpg) no-repeat left top/100% 100% padding-box;
 }
 
 #originBorder{
     border: 10px dashed rgb(80, 10, 10);
-    background-image: url(./imagens/Thor.jpg);
+    /*background-image: url(./imagens/Thor.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-origin: border-box;
+    background-origin: border-box;*/
     box-sizing: border-box;
+    background: url(./imagens/Thor.jpg) no-repeat left top/100% 100% border-box;
 }
 
 #originContent{
     border: 10px dashed rgb(80, 10, 10);
-    background-image: url(./imagens/Thor.jpg);
+    /*background-image: url(./imagens/Thor.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-origin: content-box;
-    padding: 5px;
+    background-origin: content-box;*/
+    padding: 15px;
     box-sizing: border-box;
+    background: url(./imagens/Thor.jpg) no-repeat left top/100% 100% content-box;
 }
 
 #clipPadding{
     border: 10px dashed rgb(80, 10, 10);
-    background-color: aquamarine;
+    /*background-color: aquamarine;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-clip: padding-box;
+    background-clip: padding-box;*/
     box-sizing: border-box;
+    background: aquamarine no-repeat center/100% 100% padding-box;
 }
 
 #clipBorder{
     border: 10px dashed rgb(80, 10, 10);
-    background-color: aquamarine;
+    /*background-color: aquamarine;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-clip: border-box;
+    background-clip: border-box;*/
     box-sizing: border-box;
+    background: aquamarine no-repeat center/100% 100% border-box;
 }
 
 #clipContent{
     border: 10px dashed rgb(80, 10, 10);
-    background-color: aquamarine;
+    /*background-color: aquamarine;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-clip: content-box;
+    background-clip: content-box;*/
     padding: 10px;
     box-sizing: border-box;
+    background: aquamarine no-repeat center/100% 100% content-box;
 }
 
 div > #exemplo{
