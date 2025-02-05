@@ -1,5 +1,15 @@
-Foco aqui è praticar os conceito deixando o site visivelmente bonito
+CSS - DIO RESUMO
+CSS é uma linguagem que usamos para estilizar um documento HTML, css significa folhas de estilo em cascata
 
+Por que usar CSS?
+CSS é usado para definir estilos para suas páginas da web, incluindo design, layout e variações de exibição para diferentes dispositivos e tamanhos de tela
+
+Ordem em Cascata
+Qual estilo será usado quando houver mais de um estilo especificado para um elemento HTML?
+
+Estilo embutido (dentro de um elemento HTML)
+Folhas de estilo externas e internas (na seção head)
+Padrão do navegador
 Seletores CSS
 Os seletores CSS são usados para “encontrar” (ou selecionar) os elementos HTML que você deseja estilizar.
 
@@ -49,3 +59,144 @@ body { background: #ffffff url("img_tree.png") no-repeat right top; }
 div{border: 5px solid red}
 /*ordem: width, style, color*/
 **margin APREVIADA
+
+div{margin: 5px 8px 15px 10px}
+/*margem superior, direita, inferiro e esquerda*/
+**padding APREVIADA
+
+div{padding: 10px 15px 16px 18px}
+/*margem superior, direita, inferiro e esquerda*/
+Bordas
+Propriedade resposanvel poe adicionar o formado, expessura e cor da nossa porda.
+
+*border-style propriedade especifica que tipo de borda exibir. A propriedade pode ter de um a quatro valores (para borda superior, borda direita, borda inferior e borda esquerda).
+
+*border-width defini a expessura das bordas
+
+Pode possuir os seguintes valores:
+
+*border-color propriedade usada para definir a cor das quatro bordas.
+
+*border-radius propriedades usadas para adicionar bordas arrendondadas a um elemento.
+
+exe{
+border-style: dotted; /*Defini uma borda pontilhada*/
+border-width: 5px; /*Defini uma borda de expessura de 5px de todos os lados*/
+border-color: red;
+}
+exe1{
+border-style: dashed;/*Defini uma borda tracejada*/
+border-width:medium; /*Defini uma borda media*/
+border-color:#f5f5f5;
+}
+exe2{
+border-style: solid;/*Defini uma borda solida*/
+border-width:thick; /*defini uma borda grossa*/
+border-color: #ff55f8 #d5d5d5; /*defini as cores superior e inferior com #ff55f8 e as dos lados como #d5d5d5*/
+}
+exe3{
+border-style: double;/*Defini uma borda dupla*/
+border-width: 5px 10px;/*defini uma borda de 5px pra parte superior e inferior e 10px nas laterais*/
+border-color: #ff55f8 #d5d5d5 blue red; /*defini cada lado de uma cor que foi definido seguindo o relogio*/
+}
+exe4{
+border-style: groove;/*Define uma borda ranhurada 3D. O efeito depende do valor da cor da borda*/
+border-width: 2px 5px 10px 15px; /*defini uma borda de cada expessura seguindo um relogio*/
+}
+exe5{
+border-style: ridge;/*Define uma borda estriada 3D. O efeito depende do valor da cor da borda*/
+border-width: 2px;
+border-radius: 5px;/*Defini qual o grau de curvatura das bordas*/
+}
+exe6{border-style: inset;}/*Define uma borda estriada 3D. O efeito depende do valor da cor da borda*/
+exe7{border-style:outset ;}/*Define uma borda estriada 3D. O efeito depende do valor da cor da borda*/
+exe8{border-style: none;}/*Não defini borda*/
+exe9{border-style: hidden;}/*Defini uma borda oculta*/
+Background
+Defini o fundo do elemento podendo ser cores ou imagens.
+
+*background-color propriedade especifica a cor de fundo de um elemento.
+
+body{
+background-color: #f9f9f9 /*Defini a cor*/
+opacity: 0.4; /*defini a opacidade de 0.0 a 1.0*/			
+;}
+⚠️⚠️podemos definir opacidade em propriedades background, opacidade è dado por um valor de 0 0 a 1.0
+
+*background-image propriedade especifica uma imagem a ser usada como plano de fundo de um elemento. Por padrão, a imagem é repetida para cobrir todo o elemento.
+
+div {
+background-image: url(passarLocalizacao);
+} 
+*background-repeat defini como uma imagem deve se repetir. Possui alguns valores como:
+
+body{background-repeat: repeat-x;}
+/*repete na horizontal*/
+body{background-repeat: repeat-y;}
+/*repete na vertical*/
+body{background-repeat: no-repeat;}
+/*não repete*/
+*background-position: defini a posicao da imagem de fundo, possui valores como top, right, left e bottom
+
+div{background-position: top left;} 
+*background-attachment propriedade especifica se a imagem de fundo deve rolar ou ser fixa (não rolará com o resto da página).
+
+div{background-attachment: fixed;}
+/*defini que o fundo fique fixo*/
+body{background-attachment: scrool;}
+/*a imagem deve rolar com a página*/ 
+*background-clip defini até que ponto o fundo deve se estender dentro de um elemento
+
+.exemplo1{background-clip: padding-box;}
+/*Valor padrão imagens vai ate o final da borda*/
+.exemplo2{padding-box}
+/*O plano de fundo se estende até a borda interna da borda.*/
+.exemplo3{background-clip: content-box;}
+/*O plano de fundo se estende até a borda da caixa de conteúdo*/
+*background-origin propriedade especifica a posição de origem (a área de posicionamento do plano de fundo) de uma imagem de plano de fundo.
+
+body {background-origin: padding-box ;}
+/*imagem começa no canto superior esquerdo da borda de preenchimento*/
+body {background-origin: border-box ;}
+/*A imagem de fundo começa no canto superior esquerdo da borda.*/
+body {background-origin: content-box ;}
+/*A imagem de fundo começa no canto superior esquerdo do conteúdo*/
+*background-size defini o tamanho de uma imagem de fundo em px ou auto.
+
+div{background-size: auto}
+/*Imagem de fundo exibido no seu tamanho original*/
+div{background-size:320px 240px}
+/*imagem exibido conforme o tamanho passado em px*/
+div{background-size: cover} /*Dimensione a imagem (quanto preserve sua proporção) para o menor tamanho possível para caber no contêiner (ou seja: tanto a altura quanto o comprimento cobrem completamente o contêiner)*/
+div{background-size: contain}
+/*Dimensione a imagem o máximo possível dentro do seu contêiner sem cortar ou estender a imagem.*/
+Margens
+As margens são usadas para criar espaço ao redor dos elementos, fora de quaisquer bordas definidas. Existem propriedades para definir a margem para cada lado de um elemento (superior (margin-top), direito(margin-right), inferior (margin-bottom) e esquerdo(margin-left) ‼️ Valores negativos são permetidos.
+
+p {margin-top: 100px;
+margin-bottom: 100px;
+margin-right: 150px;
+margin-left: 80px;}
+Valor auto
+
+div{margin: auto;/*centralizar horizontalmente o elemento dentro de seu contêiner.*/} 
+p{margin: inherit; /*permite que a margem seja herdada do elemento pai*/}
+‼️Colapso da margem, faz com que a margem superior e inferior de dois elementos diferentes se sobreboem, fazendo assim a margem maior ser o valor real.
+
+Padding
+O padding é usado para criar espaço ao redor do conteúdo de um elemento, dentro de quaisquer bordas definidas. Existem propriedades para definir a margem para cada lado de um elemento (superior (padding-top), direito(padding-right), inferior (padding-bottom) e esquerdo(padding-left) ‼️ Valores negativos são permetidos
+
+div{
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+Box-sizing
+Isto faz com que o elemento mantenha sua largura real; se você aumentar o preenchimento, o espaço de conteúdo disponível diminuirá. Use a propriedade box-sizing para manter a largura em 300px, independentemente da quantidade de preenchimento:
+
+div {
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+}
