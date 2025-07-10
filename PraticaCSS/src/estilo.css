@@ -1,5 +1,5 @@
 header {
-    width: 70%;
+    width: 80%;
     margin: 20px auto;
     background-color: bisque;
     box-sizing: border-box;
@@ -8,13 +8,13 @@ header {
 
 main{
     box-sizing: border-box;
-    width: 70%;
+    width: 80%;
     margin: 10px auto;
     background-color: bisque;
 }
 
 footer{
-    width: 70%;
+    width: 80%;
     box-sizing: border-box;
     margin: 15px auto;
     align-items: center;

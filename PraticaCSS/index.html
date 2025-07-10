@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/estilo.css">
+    <link rel="stylesheet" href="./src/fontes.css">
 </head>
+
 <body>
     <header>
-        
-        <h1><img src="./src/imagens/2fb4bc93-7f44-4aa8-8728-6f2fad1fb007.png" alt="Logotio DIO"> Aulas com a DIO
+
+        <h1 id="headerteste"><img src="./src/imagens/2fb4bc93-7f44-4aa8-8728-6f2fad1fb007.png" alt="Logotio DIO"> Aulas com a DIO
         </h1>
-        
+
     </header>
 
     <main>
         <div>
             <h1>Revendo e aplicando na pratica</h1>
             <p>Esta primeira parte servira para brincar com os seletores e combinadores no CSS</p>
-            <p>Conforme for crescendo os conteudos revistos irei adicionando mais itens e criando novas paginas para o site</p>
+            <p>Conforme for crescendo os conteudos revistos irei adicionando mais itens e criando novas paginas para o
+                site</p>
             <img src="./src/imagens/estudar-nas-ferias-7.jpg" alt="Imagem de um local de estudo">
         </div>
 
@@ -46,9 +50,9 @@
         <div class="lista">
             <h2>Estilizações Básicas com CSS</h2>
             <ol>
-               <li>Cores</li>
-               
-               <ul>
+                <li>Cores</li>
+
+                <ul>
                     <li>Pre definidas <code>color: white;</code></li>
                     <li>Currentcolor <code>color: currentcolor;</code></li>
                     <li>RGB <code>color: rgb(213, 130, 28);</code></li>
@@ -57,34 +61,42 @@
                     <li>Hexadecimal com Transparencia <code>color: ##d5821cff;</code></li>
                     <li>HSL <code>color: hls(360, 80%, 50%);</code></li>
                     <li>HSLA <code>color: hls(360, 80%, 50%, 0.6);</code></li>
-               </ul> <br>
+                </ul> <br>
 
-               <li>Imagens object-fit</li>
-               <ul>
+                <li>Imagens object-fit</li>
+                <ul>
                     <li>Contain <code> object-fit: contain; </code></li>
                     <li>Cover <code>object-fit: cover;</code></li>
                     <li>Fill <code>object-fit:fill;</code></li>
                     <li>None <code>object-fit:none;</code></li>
                     <li>Scale down <code>object-fit: scale-down;</code></li>
-               </ul> <br>
-               
-               <li>Imagens object-position</li>
-               <ul>
-                <li>Porcentagem <code>object-position: 45% 30%;</code></li>
-                <li>PX <code>object-position: 10px 5px;</code></li>
-                <li>Palavras chaves X <code> left / center / right</code></li>
-                <li>Palavras chaves Y <code>top / center / bottom</code></li>
-               </ul> <br>
+                </ul> <br>
 
-               <li>Fundo dos elementos</li>
+                <li>Imagens object-position</li>
+                <ul>
+                    <li>Porcentagem <code>object-position: 45% 30%;</code></li>
+                    <li>PX <code>object-position: 10px 5px;</code></li>
+                    <li>Palavras chaves X <code> left / center / right</code></li>
+                    <li>Palavras chaves Y <code>top / center / bottom</code></li>
+                </ul> <br>
+
+                <li>Fundo dos elementos</li>
                 <ol>
                     <li>Background-color</li>
                     <li>Background-image</li>
                     <ul>
-                        <li>linear-gradient <code>background-image: linear-gradient(to right, rgb(28, 141, 124), rgb(166, 222, 239));</code></li>
-                        <li>radial-gradient <code>background-image: radial-gradient(rgb(0, 0, 0), rgb(180, 12, 12), rgb(52, 96, 52));</code></li>
-                        <li>repeating-radial-gradiente <code>background-image: repeating-radial-gradient(to top, red, orange, yellow, green, blue, indigo, violet);</code></li>
-                        <li>repeating-linear-gradiente <code>background-image: repeating-linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet);</code></li>
+                        <li>linear-gradient
+                            <code>background-image: linear-gradient(to right, rgb(28, 141, 124), rgb(166, 222, 239));</code>
+                        </li>
+                        <li>radial-gradient
+                            <code>background-image: radial-gradient(rgb(0, 0, 0), rgb(180, 12, 12), rgb(52, 96, 52));</code>
+                        </li>
+                        <li>repeating-radial-gradiente
+                            <code>background-image: repeating-radial-gradient(to top, red, orange, yellow, green, blue, indigo, violet);</code>
+                        </li>
+                        <li>repeating-linear-gradiente
+                            <code>background-image: repeating-linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet);</code>
+                        </li>
                     </ul>
                     <li>Background-size</li>
                     <ul>
@@ -110,7 +122,7 @@
                         <li>PX <code>background-position: 10px 5px;</code></li>
                         <li>Palavras chaves X <code> left / center / right</code></li>
                         <li>Palavras chaves Y <code>top / center / bottom</code></li>
-                       </ul>
+                    </ul>
                     <li>Background-attachment</li>
                     <ul>
                         <li>scrool <code>background-attachment: scrool;</code></li>
@@ -124,17 +136,60 @@
                         <li>content-box <code>background-origin: content-box;</code></li>
                     </ul>
                     <li>Background-clip</li>
-                        <ul>
-                            <li>padding-box <code>background-clip: padding-box;</code></li>
-                            <li>border-box <code>background-clip: border-box;</code></li>
-                            <li>content-box <code>background-clip: content-box;</code></li>
-                            <li>text <code>webki-background-text; color: transparent; background-clip:text;</code></li>    
-                        </ul>
+                    <ul>
+                        <li>padding-box <code>background-clip: padding-box;</code></li>
+                        <li>border-box <code>background-clip: border-box;</code></li>
+                        <li>content-box <code>background-clip: content-box;</code></li>
+                        <li>text <code>webki-background-text; color: transparent; background-clip:text;</code></li>
+                    </ul>
                     <li>Background-blend-mode</li>
                     <li>Background</li>
-                        <ul><li><code>background: color image repeat attachment position size clip origin</code></li></ul>
+                    <ul>
+                        <li><code>background: color image repeat attachment position size clip origin</code></li>
+                    </ul>
+                    <li>Bordas</li>
+                    <ul>
+                        <li>border-width <code>border-width: thick;</code></li>
+                        <li>border-style <code>border-style: ridge;</code></li>
+                        <li>border-color <code>border-color: blueviolet;</code></li>
+                        <li>border <code>border: 2px solid red;</code></li>
+                        <li>border-image-source <code>border-image-source:</code></li>
+                        <li>border-image-slice <code></code></li>
+                        <li>border-image-width <code></code></li>
+                        <li>border-image-repeat <code></code></li>
+                    </ul>
+                    <li>Fontes</li>
+                    <ul>
+                        <li>fonte-family <code>font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;</code></li>
+                        <li>fonte-size <code>fonte-size: 48px;</code></li>
+                        <li>fonte-weight <code>fonte-weight: 900;</code></li>
+                        <li>font-variante <code>fonte-variante: small-caps;</code></li>
+                        <li>line-height <code>line-height: 50px;</code></li>
+                        <li>font <code>font: solid small-caps 20px 15px/15px arial;</code></li>
+                    </ul>
 
+                    <li>Sombras</li>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <li>Outros</li>
+
+                    <li>Textos</li>
+                    <ul>
+                        <li>text-transforme <code>text-transform: uppercase;</code></li>
+                        <li>text-align <code>text-align: right;</code></li>
+                        <li>text-decoration <code>text-decoration: line-through;</code></li>
+                        <li>text-indent <code>>text-indent: -255px;</code</li>
+                        <li>letter-spacing <code>letter-spacing: 8px;</code></li>
+                        <li>word-spacing <code>word-spacing: 55px;</code></li>
+                        <li>white-space <code>white-space: pre;</code></li>
+                        <li>word-wrap <code>word-wrap: break-word;</code></li>
+                        <li>word-break <code>word-break: break-all;</code></li>
+                        <li>wirting-mode <code>writing-mode: sideways-rl;</code></li>
+                        <li>text-overflow <code>text-overflow: ellipsis;</code></li>
+                    </ul>                 
                 </ol> <br>
+                
 
 
 
@@ -150,4 +205,5 @@
         <h2>Isso é tudo</h2>
     </footer>
 </body>
+
 </html>

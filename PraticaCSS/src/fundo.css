@@ -271,3 +271,57 @@ div > #exemplo{
     background-size: 100% 100%;
     background-blend-mode: lighten;
 }
+
+#thin{
+    box-sizing: border-box;
+    border-style: double;
+    border-width: thin;
+    border-color: aqua;
+}
+
+#medium{
+    box-sizing: border-box;
+    border-style: ridge;
+    border-width: medium;
+    border-color: rgb(109, 30, 177);
+}
+
+#thick{
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: thick;
+    border-color: yellowgreen;
+}
+
+#px{
+    box-sizing: border-box;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: red;
+}
+
+#porcento{
+    box-sizing: border-box;
+    border-style: ridge;
+    border-width: 2%;
+    border-color: blueviolet;
+}
+
+#radius{
+    box-sizing: border-box;
+    border: 3px double lawngreen;
+    border-radius: 50%;
+}
+
+#image_source{
+    box-sizing: border-box;
+    border-image-source: url(./imagens/testeborda.avif);
+    border-image-width: 10%;
+    border-image-slice: 25%;
+    border-image-repeat: round;
+    border-image-outset: 5px;
+}
+
+#border_image{
+    border-image: url(./imagens/teste2.jpg) 20%/10%/3px round;
+}

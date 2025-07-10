@@ -1,0 +1,61 @@
+#headerteste{
+/*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 48px;
+font-weight: 900;
+font-variant: small-caps;
+line-height: 50px;
+font-style: oblique;*/
+font: oblique small-caps 900 48px/50px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.texto {
+    text-align: center;
+    font-size: 25px;
+}
+
+#transforme{
+    text-transform: uppercase;
+}
+
+#align{
+    text-align: right;
+}
+
+#decoration{
+    text-decoration: line-through;
+}
+
+#indent{
+    text-indent: -255px;
+}
+
+#spacing{
+    letter-spacing: 8px;
+}
+
+#spacing-word{
+    word-spacing: 55px;
+}
+
+#space{
+    color: aliceblue;
+    white-space: pre;
+}
+
+#wrap{
+    word-wrap: break-word;
+}
+
+#break{
+    word-break: break-all;
+}
+
+#mode{
+    writing-mode: sideways-rl;
+}
+
+#overflow{
+    
+    text-overflow: ellipsis;
+}

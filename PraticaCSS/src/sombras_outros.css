@@ -1,0 +1,35 @@
+#box_shadow{
+    border: 3px solid;
+    box-shadow: 5px 15px 5px 5px gray;
+}
+#filter_exemplo{
+    background-image: url(../src/imagens/—Pngtree—butterfly\ watercolor\ blooming\ pink\ butterfly_6634951.png);
+    background-size: cover;
+    filter: drop-shadow(10px 5px gray);
+}
+#filter_exemplo2{
+    background-image: url(../src/imagens/—Pngtree—butterfly\ watercolor\ blooming\ pink\ butterfly_6634951.png);
+    background-size: cover;
+    filter: drop-shadow(5px 5px gray);
+    box-shadow: 5px 15px 5px 5px gray;
+}
+#texto_exemplo{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-shadow: 3px 3px white;
+    border: solid;
+    
+}
+
+#opacity{
+    background-image: url(../src/imagens/Thor.jpg);
+    background-size: cover;
+    opacity: .3;
+}
+
+#opacity1{
+    background-image: url(../src/imagens/Thor.jpg);
+    background-size: cover;
+    opacity: .8;
+}
